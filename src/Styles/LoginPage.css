@@ -1,0 +1,34 @@
+.login_body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #001351;
+}
+
+.container_login {
+  /*DISEÑO*/
+  position: absolute;
+  width: 40%;
+  height: auto;
+  /*POSICIÓN*/
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  /*CONTENIDO*/
+  text-align: center;
+  padding: 25px;
+}
+
+.login_title {
+  font-size: 60px;
+  color: #e7e7e7;
+}
+
+.login_subtitle {
+  position: absolute;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+  right: 10%;
+  top: 45%;
+  font-weight: 600;
+  color: #c5a700;
+}
