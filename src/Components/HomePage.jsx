@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from './Header'
+import '../Styles/HomePage.css'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='homePage_body'>
       <Header />
     </div>
   )
